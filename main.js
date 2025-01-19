@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import fsn from "fs";
 import path from "path";
 
-const basepath = "C:\\Users\\hatim\\Downloads";
+const basepath = "C:\\Users\\hatim\\OneDrive\\Documents\\GitHub\\Folder--Sort\\Folder";
 
 try {
     let files = await fs.readdir(basepath);
